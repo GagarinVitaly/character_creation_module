@@ -37,7 +37,7 @@ def special(char_name, char_class):
 
 def start_training(char_name, char_class):
     if char_class == 'warrior':
-        print(f'{char_name}, ты Воитель — великий мастер ближнего боя.')
+        print(f'{char_name}, ты Воитель — отличный боец ближнего боя.')
     if char_class == 'mage':
         print(f'{char_name}, ты Маг — превосходный укротитель стихий.')
     if char_class == 'healer':
